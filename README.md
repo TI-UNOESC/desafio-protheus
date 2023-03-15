@@ -33,6 +33,7 @@ Documentação da API disponível aqui: https://brapi.dev/docs
 * Soluções parciais serão aceitas, porém o que for submetido deve estar funcionando.
 
 Para auxiliar o entendimento do desafio, elaboramos um diagrama de classes contendo a estrutura do banco de dados:
+
 ![ER Desafio Protheus](https://user-images.githubusercontent.com/32557284/225391963-edf56be7-a835-4bc4-8017-c7dff6f055ec.png)
 
 ## Tecnologias a serem utilizadas
