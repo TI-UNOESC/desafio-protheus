@@ -16,15 +16,17 @@ Você terá que desenvolver uma aplicação responsável por consumir a API [bra
 Documentação da API disponível aqui: https://brapi.dev/docs
 ## Escopo do Projeto
 ### Requisitos
-* A aplicação deve persistir em uma tabela do banco de dados todos os ***tickers*** disponíveis na API.
-* Neste cadastro de ***tickers*** devem conter as informações de id, *ticker* e categoria (*stocks, reits*, etc).
-* A aplicação deve cadastrar em outra tabela no banco de dados as informações de Cotação (*regularMarketPrice*), Valor de Mercado (*marketCap*), Volume de Transações (*regularMarketVolume*) e Moeda (*currency*) destes *tickers*.
+* A aplicação deve persistir em uma tabela do banco de dados todos as ações (***tickers***) disponíveis na API.
+* Neste cadastro de ações (***tickers***) devem conter as informações de símbolo (*symbol*) e nome (*shortname*).
+* A aplicação deve cadastrar em outra tabela no banco de dados as informações de Cotação (*regularMarketPrice*), Valor de Mercado (*marketCap*), Volume de Transações (*regularMarketVolume*), Moeda (*currency*) e Data (*regularMarketTime*) destas ações.
 * A aplicação deve apresentar esses valores ao usuário em formato à escolha do desenvolvedor (terminal, arquivo de texto, csv, pdf, xlsx...) com a seguinte estrutura:
-  * *Ticker*;
+  * Símbolo;
+  * Nome;
   * Cotação;
   * Valor de Mercado;
   * Volume de Transações;
-  * Moeda.
+  * Moeda;
+  * Data.
 ### Atenção!
 * Não há requisitos quanto a escolha da linguagem de programação, framework ou banco de dados a serem utilizados na implementação.
 * Versionar o projeto realizando commits com comentários do que está sendo implementado.
