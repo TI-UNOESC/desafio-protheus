@@ -14,6 +14,11 @@ Esse é o nosso desafio para a vaga de programador Protheus na [Unoesc](https://
 Você terá que desenvolver uma aplicação responsável por consumir a API [brapi](https://brapi.dev) e persistir os dados de **ações** em um banco de dados relacional.
 
 Documentação da API disponível aqui: https://brapi.dev/docs
+
+**Endpoints que serão utilizados:**
+
+![EndPoints Desafio Protheus](https://user-images.githubusercontent.com/32557284/225396097-a1d2942d-ced4-4973-b8bf-631b272ff00f.png)
+
 ## Escopo do Projeto
 ### Requisitos
 * A aplicação deve persistir em uma tabela do banco de dados todos as ações (***tickers***) disponíveis na API.
@@ -32,7 +37,7 @@ Documentação da API disponível aqui: https://brapi.dev/docs
 * Versionar o projeto realizando commits com comentários do que está sendo implementado.
 * Soluções parciais serão aceitas, porém o que for submetido deve estar funcionando.
 
-Para auxiliar o entendimento do desafio, elaboramos um diagrama de classes contendo a estrutura do banco de dados:
+Para auxiliar o entendimento do desafio, elaboramos um diagrama de entidade relacionamento contendo a estrutura do banco de dados:
 
 ![ER Desafio Protheus](https://user-images.githubusercontent.com/32557284/225391963-edf56be7-a835-4bc4-8017-c7dff6f055ec.png)
 
